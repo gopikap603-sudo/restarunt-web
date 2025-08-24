@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Veg Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: black;
+      color: #FFA552;
+      font-family: 'Chewy', cursive;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      padding: 50px;
+    }
+
+    .left, .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 400px;
+    }
+
+    a{
+      color:#FFA552;
+    }
+
+    .center-title {
+      text-align: center;
+      font-size: 60px;
+      color: white;
+      margin-top: 30px;
+      letter-spacing: 5px;
+    }
+
+    .item {
+      font-size: 32px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .image-right {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="center-title">VEG</div>
+
+  <div class="container">
+    <!-- Left Column -->
+    <div class="left">
+      <div class="item"><a href="vegburger.html">  BURGER</a> </div>
+      <div class="item"> <a href="vegpizza.html">PIZZAS</a> </div>
+      <div class="item"> <a href="vegbriyani.html">BIRYANI </a></div>
+      <div class="item"><a href="vegnaan.html">NAAN</a></div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right">
+      <div class="item"><a href="vegcutlet.html">CUTLET </a></div>
+      <div class="item"><a href="vegmanchu.html">MANCHURIAN</a> </div>
+      <div class="item"><a href="vegnoodles.html">NOODLES</a></div>
+      <div class="item"><a href="vegpasta.html">PASTAS </a></div>
+    </div>
+  </div>
+
+  
+
+</body>
+</html>

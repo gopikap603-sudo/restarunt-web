@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 15px;
+            background-color: #000;
+            color: orange;
+            text-align: left;
+        }
+        img {
+            filter: contrast(110%) brightness(105%);
+        }
+        .gallery-container {
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            align-items: top;
+            gap: 5px; 
+            font-size: 10px;
+        } 
+        .logo {
+            width:130px; 
+            height:70px;
+    
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="fresh ingredients.png" alt="Logo" class="logo">
+    <h1>FRESH INGREDIENTS</h1>
+    <div class="gallery-container">
+        <div class="gallery">
+            <img src="milk.jpg" alt="cheese milk">
+            <img src="juices.jpg" alt="juice">
+            <img src="fresh veg.jpg" alt="vegetables">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Section</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: #0a0a0a;
+      font-family: 'Roboto', sans-serif;
+      color: white;
+    }
+
+    .contact-section {
+      padding: 40px;
+      background-color: #0a0a0a;
+      max-width: 500px;
+    }
+
+    .contact-section h2 {
+      display: flex;
+      align-items: center;
+      font-size: 24px;
+      margin-bottom: 30px;
+    }
+
+    .contact-section h2::before {
+      content: '📞';
+      font-size: 24px;
+      margin-right: 10px;
+      color: #00ff84;
+    }
+
+    .contact-item {
+      margin-bottom: 25px;
+    }
+
+    .contact-item .label {
+      display: flex;
+      align-items: center;
+      color: #ff6a00;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .contact-item .label::before {
+      margin-right: 10px;
+    }
+
+    .contact-item.location .label::before {
+      content: '📍';
+    }
+
+    .contact-item.phone .label::before {
+      content: '📞';
+    }
+
+    .contact-item.email .label::before {
+      content: '✉️';
+    }
+
+    .contact-item .value {
+      color: #cfcfcf;
+    }
+
+    .social-icons {
+      margin-top: 30px;
+    }
+
+    .social-icons a {
+      text-decoration: none;
+      margin-right: 20px;
+      color: #ff6a00;
+      font-size: 20px;
+    }
+
+    .social-icons a:hover {
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-section">
+    <h2>CONTACTS</h2>
+    <div class="contact-item location">
+      <div class="label">LOCATION</div>
+      <div class="value">2900 Laper Rd, Port Hurons</div>
+    </div>
+    <div class="contact-item phone">
+      <div class="label">PHONE</div>
+      <div class="value">88963 63806</div>
+    </div>
+    <div class="contact-item email">
+      <div class="label">EMAIL</div>
+      <div class="value">projectto2025@gmail.com</div>
+    </div>
+    <div class="social-icons">
+      <a href="#"><span>📘</span></a>
+      <a href="#"><span>🐦</span></a>
+      <a href="#"><span>📸</span></a>
+      <a href="#"><span>▶️</span></a>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript placeholder (can be used to add interactivity)
+    console.log("Contact section loaded.");
+  </script>
+</body>
+</html>
+	
+

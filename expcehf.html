@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Experienced Chef</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      font-family: 'Courier New', cursive;
+      color: #ff914d;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 40px 60px;
+    }
+
+    .left {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .logo-title {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .logo {
+      width: 60px;
+      height: 60px;
+      margin-right: 10px;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 20px;
+      color: #ff914d;
+    }
+
+    .chef-image {
+      flex:1;
+      margin-left: 100px;
+      margin-right: 100%;
+      width: 350px;
+      margin-left: 30px;
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 25px;
+    }
+
+    .triangle-name {
+      position: relative;
+      padding-left: 100px;
+      font-size: 24px;
+      color: #ff914d;
+    }
+
+    .triangle-name::before {
+      content: "";
+      position: absolute;
+      left: 50;
+      top: 50%;
+      transform: translateY(-10%);
+      width: 100;
+      height: 100;
+      border-left: 40px solid transparent;
+      border-right: 40px solid transparent;
+      border-bottom: 50px solid rgba(255, 255, 255, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="logo-title">
+        <img src="chef hat.avif" alt="Chef Hat Logo" class="logo">
+        <div class="title">EXPERIENCED CHEF</div>
+      </div>
+      <img src="chef logo b.bg.png" alt="Chef Illustration" class="chef-image">
+    </div>
+    <div class="right">
+      <div class="triangle-name">Jamie Oliver</div>
+      <div class="triangle-name">Grant Achatz</div>
+      <div class="triangle-name">Sanjeev Kapoor</div>
+      <div class="triangle-name">James Beard</div>
+      <div class="triangle-name">Mario Batali</div>
+    </div>
+  </div>
+</body>
+</html>

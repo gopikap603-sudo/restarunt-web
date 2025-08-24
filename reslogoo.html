@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Restaurant Features</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #f7941e;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 60px 20px;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .feature-item {
+      flex: 1;
+      max-width: 300px;
+      margin: 20px;
+    }
+
+    .feature-item img {
+      width: 100px;
+      height: auto;
+      margin-bottom: 15px;
+    }
+
+    .feature-item p {
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+    a{
+      color: #f7941e;
+    }
+    
+  
+
+    @media (max-width: 768px) {
+      .features {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="features">
+    <div class="feature-item">
+      <nav><img src="chef cap.png" alt="Experienced Chefs" />
+      <p><span style="color: white; font-size: 28px; font-style: italic;"></span><a href="expcehf.html"><button style="background-color: transparent; color: #f7941e; border: none; padding: 10px 20px; border-radius: 8px;"></button>EXPERIENCED CHEFS</a>
+</span></p>
+
+    </div>
+    <div class="feature-item">
+      <img src="menu card.png" alt="Original Recipes" />
+      <a href="menu.html" style=" color:#f7941e; border: none; padding: 10px 20px; border-radius: 8px;"><p>Original Recipes</p></a>
+    </div>
+    <div class="feature-item">
+      <img src="fresh ingredients.png" alt="Fresh Ingredients" /><a href="freshing.html" style=" color:#f7941e; border: none; padding: 10px 20px; border-radius: 8px;"><p>Fresh Ingredients</p></a>
+      
+    </div>
+  </section>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Opening Hours</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #000;
+      color: #fff;
+    }
+
+    .opening-section {
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .opening-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #ff6600;
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .opening-title::before {
+      content: '🕒';
+      font-size: 26px;
+    }
+
+    .opening-description {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #ccc;
+      margin-bottom: 30px;
+    }
+
+    .hours-row {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #666;
+      padding: 10px 0;
+      font-size: 18px;
+    }
+
+    .hours-row span {
+      color: #fff;
+    }
+
+    .hours-row .day {
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    .hours-row .time {
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="opening-section">
+    <div class="opening-title">OPENING HOURS</div>
+    <div class="opening-description">
+      
+    </div>
+
+    <div class="hours-row">
+      <span class="day">Monday - Friday</span>
+      <span class="time">8AM - 6PM</span>
+    </div>
+    <div class="hours-row">
+      <span class="day">Saturday</span>
+      <span class="time">9AM - 5PM</span>
+    </div>
+    <div class="hours-row">
+      <span class="day">Sunday</span>
+      <span class="time">9AM - 4PM</span>
+    </div>
+  </div>
+
+  <script>
+    // JS can be added here if needed in the future (e.g. toggling days, holiday exceptions)
+    console.log("Opening hours loaded successfully.");
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 60px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+}
+
+.logo .tagline {
+  color: orange;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+nav a.active {
+  border-bottom: 2px solid orange;
+}
+
+.icon img {
+  height: 60px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .left,
+.hero .right {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero .left h2 {
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.hero .left img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.hero .right p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.hero .right button {
+  background-color: #f7c14b;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero .right button:hover {
+  background-color: #ff9900;
+}
+
+.hero .right img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 30px;
+  border-radius: 10px;
+}

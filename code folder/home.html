@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spicy Hunt Restaurant</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000;
+      color: white;
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Header Styles */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 50px;
+      background-color: #000;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 250px;
+      height: 200px;
+      margin-right: 400px;
+    }
+
+    .logo span {
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 16px;
+    }
+
+    .chili {
+      width: 350px;
+      height:300pt;
+     }
+    /* Hero Section */
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 30px 50px;
+    }
+
+    .left {
+      flex: 1;
+      text-align: center;
+    }
+
+    .left h1 {
+      font-family: 'Impact', sans-serif;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .left img {
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 40px;
+    }
+
+    .right p {
+      font-size: 18px;
+      line-height: 1.5;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .order-btn {
+      background-color: #f6c747;
+      color: black;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 30px;
+      font-style: italic;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+      width: fit-content;
+    }
+
+    .order-btn:hover {
+      background-color: #ffc107;
+    }
+
+    .spices-img {
+      margin-top: 30px;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+      }
+
+      .right {
+        padding-left: 0;
+        padding-top: 30px;
+        text-align: center;
+      }
+
+      nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="logo.jpg" alt="Spicy Hunt Logo">
+      
+    </div>
+    <nav>
+      <a href="home.html">HOME</a>
+      <a href="about.html">ABOUT</a>
+      <a href="expcheff.html">CHEFS</a>
+      <a href="menu.html">MENU</a>
+      <a href="galary.html">GALLERY</a>
+      <a href="openhrs.html">TIMING</a>
+      <a href="contact.html">CONTACT</a>
+      <img src="chili.jpg" alt="Chili" class="chili">
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="left">
+      <h1>ENJOY YOUR DELICIOUS MEAL</h1>
+      <img src="chicken.png" alt="Chicken Dish">
+    </div>
+    <div class="right">
+      <p>Fresh delicious meal to reach your<br>optimum health</p>
+      </button> <a href="order.html"><button style="background-color: orange; color: white; border: none; padding: 10px 20px; border-radius: 8px;">Order Now</button></a>
+</button>
+      
+    </div>
+  </section>
+</body>
+</html>
